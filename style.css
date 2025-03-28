@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+}
+
+.popup {
+    text-align:center;
+    }
+
+.selection-menu {
+    position: absolute;
+    right: -5vw;
+    width: 10em;
+    height: 10em;
+    top: 5vh;
+    background-color: white;
+    z-index: 100;
+}
